@@ -1,0 +1,27 @@
+name: Relatório diário do grupo
+
+on:
+  schedule:
+    - cron: "0 11 * * *"      # 11h UTC = 08h00 em Brasília (o GitHub pode atrasar alguns minutos)
+  workflow_dispatch:           # botão "Run workflow", para testar na hora
+    inputs:
+      forcar:
+        description: "Reenviar mesmo sem respostas novas? (1 = sim)"
+        required: false
+        default: "0"
+
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Gerar e enviar o relatório
+        env:
+          APPS_SCRIPT_URL: ${{ secrets.APPS_SCRIPT_URL }}
+          RELATORIO_KEY: ${{ secrets.RELATORIO_KEY }}
+          FORCAR: ${{ github.event.inputs.forcar }}
+        run: python gerar_relatorio.py

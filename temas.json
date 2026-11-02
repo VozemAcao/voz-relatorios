@@ -1,0 +1,50 @@
+[
+ {
+  "nome": "Autoconhecimento",
+  "habilidade": "Habilidade de compreender a própria forma de se comunicar, reconhecendo recursos, padrões de reação e impactos gerados, para fazer escolhas mais conscientes antes, durante e depois das interações."
+ },
+ {
+  "nome": "Presença",
+  "habilidade": "Disposição para estar plenamente presente na interação, regulando a própria atenção e estado interno para ouvir com foco, abertura e interesse genuíno pelo outro."
+ },
+ {
+  "nome": "Empatia",
+  "habilidade": "Sensibilidade para compreender o outro com abertura, escuta genuína e ausência de julgamentos, reconhecendo seus sentimentos, perspectivas e contribuições com respeito e valorização."
+ },
+ {
+  "nome": "Escuta",
+  "habilidade": "Habilidade de ouvir com atenção e curiosidade, confirmando a compreensão e utilizando perguntas para aprofundar o entendimento antes de responder ou apresentar a própria opinião."
+ },
+ {
+  "nome": "Autenticidade",
+  "habilidade": "Segurança para se expressar com verdade, coerência e segurança, comunicando pensamentos, sentimentos, necessidades, limites e valores mesmo diante de discordância, pressão ou receio de julgamento."
+ },
+ {
+  "nome": "Storytelling",
+  "habilidade": "Criatividade para transformar experiências em narrativas claras, envolventes e significativas, utilizando estrutura, emoção e aprendizados para gerar conexão, reflexão e impacto."
+ },
+ {
+  "nome": "Assertividade",
+  "habilidade": "Assertividade para se posicionar com clareza, firmeza e respeito, alinhando expressão verbal e não verbal e assumindo responsabilidade pelo impacto da própria comunicação."
+ },
+ {
+  "nome": "Linguagem Corporal",
+  "habilidade": "Domínio para utilizar e interpretar conscientemente sinais corporais e vocais para transmitir presença, segurança e clareza, ajustando a comunicação a partir da leitura do outro."
+ },
+ {
+  "nome": "Conversas Difíceis",
+  "habilidade": "Maturidade para conduzir conversas difíceis com preparo, equilíbrio emocional e abertura à perspectiva do outro, transformando situações desafiadoras em aprendizado e evolução."
+ },
+ {
+  "nome": "Comunicação Não Violenta",
+  "habilidade": "Capacidade para comunicar fatos, sentimentos, necessidades e pedidos com clareza e responsabilidade, reduzindo julgamentos e favorecendo relações mais respeitosas e conscientes."
+ },
+ {
+  "nome": "Feedback",
+  "habilidade": "Abertura para oferecer e receber feedback com clareza, respeito e abertura, transformando a troca em aprendizado, desenvolvimento e melhoria contínua da comunicação."
+ },
+ {
+  "nome": "Confiança",
+  "habilidade": "Facilidade para se expressar com autenticidade e segurança, construindo relações de confiança por meio da coerência, da escuta, da presença e da colaboração."
+ }
+]
